@@ -5,15 +5,12 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "vitest src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^29.5.0"
-  },
-  "devDependencies": {
-    "@types/jest": "^29.5.1"
+    "vitest": "^0.30.1"
   }
 }
