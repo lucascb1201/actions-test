@@ -7,6 +7,6 @@ describe("test soma", () => {
   const value = sum.execute(2, 3);
 
   test("should sum correctly", () => {
-    expect(value).toBe(5);
+    expect(value).toBe(4);
   });
 });
